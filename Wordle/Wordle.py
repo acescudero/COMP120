@@ -73,12 +73,6 @@ class Wordy:
         self.BUTTON_PAD_X = 2
 
         # The following colors for the keyboard buttons
-        # follow the same specifications as the colors defined above for the guess
-        # boxes.  The problem is that if one or both of you have a mac, you will
-        # not be able to change the background color of a button.  In this case,
-        # just change the color of the text in the button, instead of the background color.
-        # So the text color starts as the default (black), and then changes to grey, orange,
-        # green depending on the result of the guess for that letter.
         self.KEYBOARD_BUTTON_BG_BEGIN = 'white'
         self.KEYBOARD_BUTTON_TEXT_BEGIN = 'black'
         self.KEYBOARD_BUTTON_BG_WRONG = 'grey'
